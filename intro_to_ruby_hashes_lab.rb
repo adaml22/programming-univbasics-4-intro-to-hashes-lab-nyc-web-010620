@@ -23,6 +23,7 @@ end
 def my_hash_creator(key, value)
   argument_hash = {}
   argument_hash[:key] = value
+  return argument_hash
 end
 
 def read_from_hash(hash, key)
