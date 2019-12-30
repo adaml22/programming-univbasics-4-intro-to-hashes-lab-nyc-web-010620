@@ -24,7 +24,6 @@ def my_hash_creator(key, value)
   argument_hash = {
     key: value
   }
-  return hash
 end
 
 def read_from_hash(hash, key)
