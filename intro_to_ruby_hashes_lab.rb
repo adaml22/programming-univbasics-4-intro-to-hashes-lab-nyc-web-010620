@@ -21,7 +21,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  argument_hash(key, value) = {
+  argument_hash = {
     key: value
   }
 end
